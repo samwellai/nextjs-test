@@ -1,16 +1,17 @@
+```
 # Next.js Test
 
 A test project simulating a dashboard using Next.js, TypeScript, and mock API routes.
 
 ## API Endpoints
 
-- **User Signups**: `/api/signups`
+- User Signups: `/api/signups`
   Returns a list of user signups with an `id`, `name`, `email`, and `signupDate`.
 
-- **User Login Activity**: `/api/logins`
+- User Login Activity: `/api/logins`
   Returns a list of user login activities with `userId`, `date`, and `device`.
 
-- **Subscription Upgrades**: `/api/upgrades`
+- Subscription Upgrades: `/api/upgrades`
   Returns a list of subscription upgrades with `userId`, `oldPlan`, `newPlan`, and `upgradeDate`.
 
 ## Setup
@@ -19,6 +20,15 @@ A test project simulating a dashboard using Next.js, TypeScript, and mock API ro
 2. Install dependencies:
    ```bash
    npm install
+   ```
+## Screenshots of the project:
+
+
+![Screenshot 2023-10-12 at 3 09 47 PM](https://github.com/thriver652/nextjs-test/assets/74093651/c05931cd-aa18-4afd-af4b-5c0d2dbe9ce4)
+![Screenshot 2023-10-12 at 3 09 59 PM](https://github.com/thriver652/nextjs-test/assets/74093651/1bfca500-18e1-4362-9aa1-eeab378bb10c)
+![Screenshot 2023-10-12 at 3 10 13 PM](https://github.com/thriver652/nextjs-test/assets/74093651/2a45f6dd-a546-4cbe-9a11-3ea6c0c16281)
+![Screenshot 2023-10-12 at 3 10 26 PM](https://github.com/thriver652/nextjs-test/assets/74093651/8698b9e2-3009-4b46-bc5e-8c2f22614081)
+
 
 ## Objective:
 
@@ -57,3 +67,46 @@ Once you've completed the tasks:
    - Any additional notes or comments you'd like to add about your submission.
 
 Thank you for participating in this test! We're excited to review your work.
+
+**Note:**
+I have made changes in the following directories:
+- `/SubscriptionUpgrades`
+- `/UserLoginActivity`
+- `/UserSignUp`
+```
+```markdown
+
+## How to Run the Application Locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/thriver652/nextjs-test
+   cd <your_project_directory>
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the application:
+
+   ```bash
+   npm run dev
+   ```
+
+   This will start the development server, and you can access the application at [http://localhost:3000](http://localhost:<your-server-number>(3000 or 3001 or 3002)).
+
+4. Open your web browser and navigate to the provided URL to interact with the dashboard and as provided above you can navigate to
+
+   - `/SubscriptionUpgrades`
+   - `/UserLoginActivity`
+   - `/UserSignUp`
+    
+   
+
+Best regards,
+Sai Praneeth
+
